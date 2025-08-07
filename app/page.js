@@ -1,95 +1,31 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Categories from '@/components/categories'
+import styles from './page.module.css'
 
-export default function Home() {
+export default function Page() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+    <main className={styles.main}>
+      <div className={styles.hero}>
+        <h1>Hello, World!</h1>
+        <p>Finding the online tools and more, we <b>Developers</b> use in daily life to make our work easy?</p>
+        <p>You are on the right place!</p>
+        <p>Scroll down and explore our Developer's world.</p>
+      </div>
+      <br />
+      <div className={styles.categories}>
+        <h1>Categories</h1>
+        <p className='spep'>Explore various categories of tools and resources.</p>
+        <br />
+        <Categories />
+      </div>
+      <div className={styles.beyond}>
+        <h1>Why it Matters?</h1>
+        <br />
+        <p>Ever wonder what tools real developers use every day? It’s these. They’re not just cool—they’re practical, powerful, and used in everything from personal portfolios to billion-user platforms. Learn them now, and you’ll thank yourself later.</p>
+        <br />
+        <p>The tools listed above aren’t just popular—they’re trusted by professional developers around the world. They simplify your workflow, boost your productivity, and help you build real-world projects faster. From writing clean code to deploying your site in seconds, these tools form the foundation of modern web development. Whether you're just starting out or growing into a pro, learning these now means you're building the right habits from day one.</p>
+        <br />
+        <p>These tools are your gateway into the real world of development. They’re not shortcuts—they’re the standard. Senior developers use them daily to build apps for millions. Mastering them early means you’re not just learning to code—you’re learning to build like a pro.</p>
+      </div>
+    </main>
+  )
 }

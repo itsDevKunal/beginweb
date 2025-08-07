@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "title": "GitHub",
+    "url": "https://github.com"
+  },
+  {
+    "id": 2,
+    "title": "Dev.to",
+    "url": "https://dev.to"
+  },
+  {
+    "id": 3,
+    "title": "Hashnode",
+    "url": "https://hashnode.com"
+  },
+  {
+    "id": 4,
+    "title": "Stack Overflow",
+    "url": "https://stackoverflow.com"
+  },
+  {
+    "id": 5,
+    "title": "LinkedIn",
+    "url": "https://linkedin.com"
+  },
+  {
+    "id": 6,
+    "title": "X",
+    "url": "https://x.com"
+  },
+  {
+    "id": 7,
+    "title": "Twitch",
+    "url": "https://twitch.com"
+  },
+  {
+    "id": 8,
+    "title": "Vercel",
+    "url": "https://vercel.com"
+  },
+  {
+    "id": 9,
+    "title": "Netlify",
+    "url": "https://netlify.com"
+  },
+  {
+    "id": 10,
+    "title": "GitHub Pages",
+    "url": "https://pages.github.com"
+  },
+  {
+    "id": 11,
+    "title": "Render",
+    "url": "https://render.com"
+  },
+  {
+    "id": 12,
+    "title": "Cloudflare",
+    "url": "https://cloudflare.com"
+  },
+  {
+    "id": 13,
+    "title": "Surge.sh",
+    "url": "https://surge.sh"
+  },
+  {
+    "id": 14,
+    "title": "Railway",
+    "url": "https://railway.com"
+  },
+  {
+    "id": 15,
+    "title": "MDN",
+    "url": "https://developer.mozilla.org/"
+  },
+  {
+    "id": 16,
+    "title": "w3schools",
+    "url": "https://w3schools.com"
+  },
+  {
+    "id": 17,
+    "title": "FreeCodeCamp",
+    "url": "https://freecodecamp.org"
+  },
+  {
+    "id": 18,
+    "title": "Roadmap.sh",
+    "url": "https://roadmap.sh"
+  },
+  {
+    "id": 19,
+    "title": "JavaScript.info",
+    "url": "https://javascript.info"
+  },
+  {
+    "id": 20,
+    "title": "GeeksForGeeks",
+    "url": "https://geeksforgeeks.com"
+  },
+  {
+    "id": 21,
+    "title": "VS Code",
+    "url": "https://code.visualstudio.com"
+  },
+  {
+    "id": 22,
+    "title": "CodePen",
+    "url": "https://codepen.io"
+  },
+  {
+    "id": 23,
+    "title": "Replit",
+    "url": "https://replit.com"
+  },
+  {
+    "id": 24,
+    "title": "Stackblitz",
+    "url": "https://stackblitz.com"
+  },
+  {
+    "id": 25,
+    "title": "Sublime Text",
+    "url": "https://sublimetext.com"
+  },
+  {
+    "id": 26,
+    "title": "Atom",
+    "url": "https://atom-editor.cc"
+  },
+  {
+    "id": 27,
+    "title": "Tailwind CSS",
+    "url": "https://tailwindcss.com"
+  },
+  {
+    "id": 28,
+    "title": "Bootstrap",
+    "url": "https://getbootstrap.com"
+  },
+  {
+    "id": 29,
+    "title": "Material UI",
+    "url": "https://mui.com"
+  },
+  {
+    "id": 30,
+    "title": "Heroicons",
+    "url": "https://heroicons.com"
+  },
+  {
+    "id": 31,
+    "title": "Reactbits",
+    "url": "https://reactbits.dev"
+  },
+  {
+    "id": 32,
+    "title": "Bulma",
+    "url": "https://bulma.io"
+  },
+  {
+    "id": 33,
+    "title": "Figma",
+    "url": "https://figma.com"
+  },
+  {
+    "id": 34,
+    "title": "Canva",
+    "url": "https://canva.com"
+  },
+  {
+    "id": 35,
+    "title": "Dribbble",
+    "url": "https://dribbble.com"
+  },
+  {
+    "id": 36,
+    "title": "Unsplash",
+    "url": "https://unsplash.com"
+  },
+  {
+    "id": 37,
+    "title": "Flaticon",
+    "url": "https://flaticon.com"
+  },
+  {
+    "id": 38,
+    "title": "WordPress",
+    "url": "https://wordpress.com"
+  }
+]

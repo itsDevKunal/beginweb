@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+}
+
+.notFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.notFound h1 {
+  color: cyan;
+}
+
+.notFound p {
+  color: #999;
+  padding: 10px;
+}
+
+.returnbtn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
