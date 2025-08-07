@@ -60,8 +60,18 @@
   text-align: left;
 }
 
-.results ul li {
+.results ul li a {
+  display: block;
+  width: 100%;
   padding: 10px;
+}
+
+.results ul li a:hover {
+  background-color: transparent;
+}
+
+.results ul li {
+  margin-bottom: 5px;
   transition: all 0.3s ease;
   border-radius: 10px;
 }
